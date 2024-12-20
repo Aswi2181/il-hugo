@@ -1,0 +1,215 @@
+/* General Reset and Typography */
+body {
+    margin: 0;
+    font-family: 'Inter', Arial, sans-serif;
+    color: #ffffff;
+    background: linear-gradient(180deg, #0e1e2a, #1a2833);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  p {
+    margin: 0 0 1.5rem 0;
+    line-height: 1.6;
+  }
+  
+  a {
+    color: #5ac8fa;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #09151d;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  header .menu {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  header .menu a {
+    color: #ffffff;
+    font-weight: 600;
+  }
+  
+  header .menu a:hover {
+    color: #5ac8fa;
+  }
+  
+  header .button {
+    padding: 0.5rem 1.5rem;
+    background: #5ac8fa;
+    border-radius: 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 5rem 1rem;
+    background: linear-gradient(180deg, #0e1e2a, #1a2833);
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    color: #5ac8fa;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0 2rem;
+  }
+  
+  .hero .button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background: #5ac8fa;
+    border: none;
+    border-radius: 5px;
+    color: #09151d;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 3rem 1rem;
+    background: #09151d;
+  }
+  
+  .services h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .services .card {
+    background: #1a2833;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    margin: 1rem;
+    color: #ffffff;
+  }
+  
+  .services .card:hover {
+    background: #5ac8fa;
+    color: #09151d;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  /* Focus Section */
+  .focus {
+    padding: 3rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    background: linear-gradient(180deg, #1a2833, #0e1e2a);
+  }
+  
+  .focus .card {
+    background: #1a2833;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .focus .card:hover {
+    background: #5ac8fa;
+    color: #09151d;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  /* Clients Section */
+  .clients {
+    padding: 3rem 1rem;
+    background: #09151d;
+  }
+  
+  .clients h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .clients .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .clients .logos img {
+    max-height: 50px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  .clients .logos img:hover {
+    filter: none;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 3rem 1rem;
+    background: #1a2833;
+  }
+  
+  .contact form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  .contact form button {
+    padding: 1rem;
+    background: #5ac8fa;
+    border: none;
+    color: #09151d;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact form button:hover {
+    background: #3a9edb;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 1rem;
+    text-align: center;
+    background: #09151d;
+    color: #ffffff;
+  }
+  
+  footer a {
+    color: #5ac8fa;
+  }
+  

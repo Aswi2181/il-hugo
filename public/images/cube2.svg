@@ -1,0 +1,12 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="cube2Gradient" x1="100%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#43B3EA;stop-opacity:0.4"/>
+            <stop offset="100%" style="stop-color:#2196F3;stop-opacity:0.3"/>
+        </linearGradient>
+    </defs>
+    <path d="M100 0L186.603 50V150L100 200L13.3975 150V50L100 0Z" fill="url(#cube2Gradient)"/>
+    <path d="M100 0L186.603 50L100 100L13.3975 50L100 0Z" fill="#43B3EA" fill-opacity="0.5"/>
+    <path d="M13.3975 50L100 100V200L13.3975 150V50Z" fill="#43B3EA" fill-opacity="0.4"/>
+    <path d="M186.603 50L100 100V200L186.603 150V50Z" fill="#43B3EA" fill-opacity="0.3"/>
+</svg> 
