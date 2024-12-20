@@ -1,0 +1,6 @@
+[submodule "hugo-theme-color-your-world"]
+	path = hugo-theme-color-your-world
+	url = https://gitlab.com/rmaguiar/hugo-theme-color-your-world.git
+[submodule "hugo-flex"]
+	path = hugo-flex
+	url = https://github.com/ldeso/hugo-flex.git
